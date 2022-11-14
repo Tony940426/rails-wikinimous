@@ -1,0 +1,11 @@
+<div class="container">
+  <h2><%= @article.title%></h2>
+  <%= link_to 'Edit', edit_path %>
+  <%= link_to 'Delete', article_path(@article), data: {turbo_method: :delete, tubo_confirm: "Are you sure?"} %>
+  <p><%= @article.content %></p>
+
+
+  <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, earum consequatur est sunt totam aliquam libero aperiam odit accusamus nulla corrupti labore porro amet necessitatibus quidem. Nulla inventore est deserunt.</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, voluptatibus ipsum. Dolore itaque ut culpa dolores in laboriosam expedita magni assumenda minus tenetur reprehenderit fuga eos, enim quos ex cupiditate?
+  Numquam nihil excepturi fuga molestiae beatae, cum deleniti. Est quisquam non eos sequi incidunt ipsum. Quas dolore ab vel soluta aperiam, aliquid error placeat excepturi repudiandae officiis ut assumenda minus.</p>
+</div>
